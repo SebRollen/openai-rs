@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 serde = { version = "1.0.210", features = ["derive"] }
-vila = "3.0.0"
+tower-api-client = "0.1.0"

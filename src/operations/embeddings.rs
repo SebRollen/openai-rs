@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 use std::borrow::Cow;
-use vila::{Method, Request, RequestData};
+use tower_api_client::{Method, Request, RequestData};
 
 #[derive(Debug, Deserialize, Serialize)]
 pub enum Model {
